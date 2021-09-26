@@ -1,0 +1,123 @@
+.card {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 1680px;
+	padding: 5rem 10rem;
+	background-color: #1b1b1b;
+
+	&__column {
+		flex: 0 1 calc(100% / 3);
+		margin-right: 5rem;
+
+		&:last-child {
+			align-self: stretch;
+			margin-right: 0;
+		}
+	}
+
+	&__name {
+		font-size: 7.5rem;
+		line-height: 7.5rem;
+		font-weight: 600;
+	}
+
+	&__info {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(100px, 205px));
+		row-gap: 30px;
+		justify-content: space-between;
+		margin-top: 6.5rem;
+	}
+
+	&__abilities {
+		margin-top: 4.5rem;
+	}
+
+	&__abilities-item {
+		margin-bottom: 2rem;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	&__title {
+		margin-bottom: 1.5rem;
+		font-size: 3rem;
+		font-weight: 600;
+	}
+
+	&__text {
+		color: #ffffffcc;
+		line-height: 2.5rem;
+	}
+
+	&__needs {
+		margin-top: 5rem;
+	}
+
+	&__needs-list {
+		margin-left: 2rem;
+	}
+
+	&__needs-item {
+		margin-bottom: 1rem;
+		color: #ffffffcc;
+		line-height: 2.5rem;
+
+		span {
+			position: relative;
+			left: -5px;
+		}
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	&__points {
+		margin-top: 4.5rem;
+	}
+
+	&__photo {
+		position: relative;
+		height: 100%;
+		border-radius: 7px;
+		overflow: hidden;
+
+		&::before {
+			position: absolute;
+			top: 0;
+			left: 0;
+			content: "";
+			display: block;
+			width: 100%;
+			height: 100%;
+			background: linear-gradient(to top, #6a595b -25%, #83686b00 45%);
+		}
+	}
+
+	&__photo-text {
+		position: absolute;
+		left: 50%;
+		bottom: 85px;
+		transform: translateX(-50%);
+		width: 360px;
+		font-size: 3rem;
+		line-height: 3.5rem;
+		font-weight: 600;
+
+		&::before {
+			content: "“";
+			position: absolute;
+			left: -15px;
+			top: 0;
+		}
+	}
+
+	&__image {
+		display: block;
+		width: 100%;
+	}
+}
