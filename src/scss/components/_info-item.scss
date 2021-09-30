@@ -21,11 +21,11 @@
 	}
 
 	&__description {
-		margin-top: 0.7rem;
+		margin-top: 7px;
 		color: #ffffff99;
 
 		@media (max-width: $lg) {
-			margin-top: 0.4rem;
+			margin-top: 4px;
 		}
 	}
 
@@ -34,11 +34,11 @@
 		-webkit-line-clamp: 3;
 		-webkit-box-orient: vertical;
 		overflow: hidden;
-		margin-top: 0.7rem;
+		margin-top: 7px;
 		line-height: 2.5rem;
 
 		@media (max-width: $lg) {
-			margin-top: 0.4rem;
+			margin-top: 4px;
 			line-height: 1.5rem;
 		}
 	}

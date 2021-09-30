@@ -10,7 +10,7 @@
 	@media (max-width: $xxl) {
 		align-items: initial;
 		width: 1369px;
-		padding: 3rem 5rem;
+		padding: 30px 50px;
 	}
 
 	@media (max-width: $xl) {
@@ -31,14 +31,14 @@
 	}
 
 	@media (max-width: $sm) {
-		padding: 1.5rem 2.5rem;
+		padding: 15px 25px;
 		font-size: 1.3rem;
 	}
 
 	&__column {
 		&--info {
 			@media (max-width: $md) {
-				margin-bottom: 4rem;
+				margin-bottom: 40px;
 			}
 		}
 
@@ -49,7 +49,7 @@
 			}
 
 			@media (max-width: $md) {
-				margin-bottom: 4rem;
+				margin-bottom: 40px;
 			}
 		}
 
@@ -87,19 +87,19 @@
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		row-gap: 30px;
-		margin-top: 6.5rem;
+		margin-top: 65px;
 
 		@media (max-width: $lg) {
-			margin-top: 3.5rem;
+			margin-top: 35px;
 		}
 	}
 
 	&__abilities {
-		margin-top: 4.5rem;
+		margin-top: 45px;
 	}
 
 	&__abilities-item {
-		margin-bottom: 2rem;
+		margin-bottom: 20px;
 
 		&:last-child {
 			margin-bottom: 0;
@@ -107,7 +107,7 @@
 	}
 
 	&__title {
-		margin-bottom: 1.5rem;
+		margin-bottom: 15px;
 		font-size: 3rem;
 		font-weight: 600;
 
@@ -116,7 +116,7 @@
 		}
 
 		@media (max-width: $sm) {
-			margin-bottom: 1rem;
+			margin-bottom: 10px;
 			font-size: 2rem;
 		}
 	}
@@ -131,19 +131,19 @@
 	}
 
 	&__needs {
-		margin-top: 5rem;
+		margin-top: 50px;
 
 		@media (max-width: $sm) {
-			margin-top: 3rem;
+			margin-top: 30px;
 		}
 	}
 
 	&__needs-list {
-		margin-left: 2rem;
+		margin-left: 20px;
 	}
 
 	&__needs-item {
-		margin-bottom: 1rem;
+		margin-bottom: 10px;
 		color: #ffffffcc;
 		line-height: 2.5rem;
 
@@ -162,10 +162,10 @@
 	}
 
 	&__points {
-		margin-top: 4.5rem;
+		margin-top: 45px;
 
 		@media (max-width: $sm) {
-			margin-top: 3rem;
+			margin-top: 30px;
 		}
 	}
 
