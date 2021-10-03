@@ -1,12 +1,12 @@
-# Практический курс по верстке и JavaScript
+# Верстка CV-карточки
 
-Учебное задание #1 в рамках курса - верстка CV-карточки.
+Адаптивная верстка макета CV-карточки для устройств с шириной экрана от 320px.
 
 ## Сборка проекта
 
 ```bash
-1. git clone https://github.com/Dimeliora/practical-course-1--cv-card
-2. cd practical-course-1--cv-card
+1. git clone https://github.com/Dimeliora/cv-card-layout
+2. cd cv-card-layout
 3. npm install
 ```
 

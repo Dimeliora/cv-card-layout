@@ -1,8 +1,8 @@
 {
-	"name": "practical-course-1--cv-card",
+	"name": "cv-card-layout",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.js",
+	"main": "index.html",
 	"scripts": {
 		"serve": "cross-env NODE_ENV=development gulp serve",
 		"build": "cross-env NODE_ENV=development gulp build",
