@@ -1,150 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Task #1 - CV Card</title>
-		<link rel="stylesheet" href="/styles.css" />
-		<script src="/script.js" defer></script>
-	</head>
-	<body>
-		<div class="container">
-			<div class="card">
-				<div class="card__column card__column--info">
-					<h1 class="card__name">Alma Hedegaard</h1>
-					<div class="card__info">
-						<div class="info-item">
-							<svg class="info-item__icon">
-								<use
-									href="./icons/icon-sprite.svg#briefcase"
-								></use>
-							</svg>
-							<div class="info-item__description">Occupation</div>
-							<p class="info-item__text">Sales Manager</p>
-						</div>
-						<div class="info-item">
-							<svg class="info-item__icon">
-								<use
-									href="./icons/icon-sprite.svg#location"
-								></use>
-							</svg>
-							<div class="info-item__description">Location</div>
-							<p class="info-item__text">Copenhagen, Denmark</p>
-						</div>
-						<div class="info-item">
-							<svg class="info-item__icon">
-								<use
-									href="./icons/icon-sprite.svg#person"
-								></use>
-							</svg>
-							<div class="info-item__description">Age</div>
-							<p class="info-item__text">44</p>
-						</div>
-						<div class="info-item">
-							<svg class="info-item__icon">
-								<use href="./icons/icon-sprite.svg#home"></use>
-							</svg>
-							<div class="info-item__description">Family</div>
-							<p class="info-item__text">Married. 2 children</p>
-						</div>
-					</div>
-					<div class="card__abilities">
-						<h2 class="card__title">Tech</h2>
-						<div class="card__abilities-item bar">
-							<div class="bar__title">Internet</div>
-							<div class="bar__track">
-								<div class="bar__filler"></div>
-							</div>
-						</div>
-						<div class="card__abilities-item bar">
-							<div class="bar__title">Social Media</div>
-							<div class="bar__track">
-								<div class="bar__filler"></div>
-							</div>
-						</div>
-						<div class="card__abilities-item bar">
-							<div class="bar__title">Online Shopping</div>
-							<div class="bar__track">
-								<div class="bar__filler"></div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="card__column card__column--bio">
-					<div class="card__bio">
-						<h2 class="card__title">Biography</h2>
-						<p class="card__text">
-							Alma and her husband have 2 kids: a teenager and a
-							9-year-old. Now they can focus more on their
-							carreers but their main worry is about their sons
-							education and health. With a busy week days, the
-							time they can really get togther as a family is
-							during the dinners time and weekends. So their meal
-							is a really special part of their days. She loves to
-							use avocados in her diet. Interested in gardening.
-						</p>
-					</div>
-					<div class="card__needs">
-						<h2 class="card__title">Needs</h2>
-						<ul class="card__needs-list">
-							<li class="card__needs-item">
-								<span>
-									Be ready for holiday family gathering as
-									well as for light dinner during the day.
-								</span>
-							</li>
-							<li class="card__needs-item">
-								<span>
-									Find balance between feeling good about
-									herself, being able to maintain her
-									lifestyle, while contributing with the
-									world.
-								</span>
-							</li>
-							<li class="card__needs-item">
-								<span>
-									Wise choices of the brands and respect to
-									environment and sustainability is
-									fundamental for her.
-								</span>
-							</li>
-						</ul>
-					</div>
-					<div class="card__points">
-						<h2 class="card__title">Pain points</h2>
-						<p class="card__text">
-							Alma need to find flexible solution that can help
-							her to optimize her time while dedicating herself to
-							her carreer, kids and making sure to maintain a
-							health lifestyle.
-						</p>
-					</div>
-				</div>
-				<div class="card__column card__column--photo">
-					<div class="card__photo">
-						<picture>
-							<source
-								srcset="
-									./images/user@1x.webp,
-									./images/user@2x.webp 2x
-								"
-								type="image/webp"
-							/>
-							<img
-								src="./images/user@1x.jpg"
-								srcset="./images/user@2x.jpg 2x"
-								alt="Woman in kitchen looking at recipe on tablet"
-								class="card__image"
-							/>
-						</picture>
-						<div class="card__photo-text">
-							It is very important for me to have fresh, tasty
-							products at hand. ”
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV Card Layout</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card__column card__column--info">
+          <h1 class="card__name">Alma Hedegaard</h1>
+          <div class="card__info">
+            <div class="info-item">
+              <svg class="info-item__icon">
+                <use href="./icons/icon-sprite.svg#briefcase"></use>
+              </svg>
+              <div class="info-item__description">Occupation</div>
+              <p class="info-item__text">Sales Manager</p>
+            </div>
+            <div class="info-item">
+              <svg class="info-item__icon">
+                <use href="./icons/icon-sprite.svg#location"></use>
+              </svg>
+              <div class="info-item__description">Location</div>
+              <p class="info-item__text">Copenhagen, Denmark</p>
+            </div>
+            <div class="info-item">
+              <svg class="info-item__icon">
+                <use href="./icons/icon-sprite.svg#person"></use>
+              </svg>
+              <div class="info-item__description">Age</div>
+              <p class="info-item__text">44</p>
+            </div>
+            <div class="info-item">
+              <svg class="info-item__icon">
+                <use href="./icons/icon-sprite.svg#home"></use>
+              </svg>
+              <div class="info-item__description">Family</div>
+              <p class="info-item__text">Married. 2 children</p>
+            </div>
+          </div>
+          <div class="card__abilities">
+            <h2 class="card__title">Tech</h2>
+            <div class="card__abilities-item bar">
+              <div class="bar__title">Internet</div>
+              <div class="bar__track">
+                <div class="bar__filler"></div>
+              </div>
+            </div>
+            <div class="card__abilities-item bar">
+              <div class="bar__title">Social Media</div>
+              <div class="bar__track">
+                <div class="bar__filler"></div>
+              </div>
+            </div>
+            <div class="card__abilities-item bar">
+              <div class="bar__title">Online Shopping</div>
+              <div class="bar__track">
+                <div class="bar__filler"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card__column card__column--bio">
+          <div class="card__bio">
+            <h2 class="card__title">Biography</h2>
+            <p class="card__text">
+              Alma and her husband have 2 kids: a teenager and a 9-year-old. Now
+              they can focus more on their carreers but their main worry is
+              about their sons education and health. With a busy week days, the
+              time they can really get togther as a family is during the dinners
+              time and weekends. So their meal is a really special part of their
+              days. She loves to use avocados in her diet. Interested in
+              gardening.
+            </p>
+          </div>
+          <div class="card__needs">
+            <h2 class="card__title">Needs</h2>
+            <ul class="card__needs-list">
+              <li class="card__needs-item">
+                <span>
+                  Be ready for holiday family gathering as well as for light
+                  dinner during the day.
+                </span>
+              </li>
+              <li class="card__needs-item">
+                <span>
+                  Find balance between feeling good about herself, being able to
+                  maintain her lifestyle, while contributing with the world.
+                </span>
+              </li>
+              <li class="card__needs-item">
+                <span>
+                  Wise choices of the brands and respect to environment and
+                  sustainability is fundamental for her.
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div class="card__points">
+            <h2 class="card__title">Pain points</h2>
+            <p class="card__text">
+              Alma need to find flexible solution that can help her to optimize
+              her time while dedicating herself to her carreer, kids and making
+              sure to maintain a health lifestyle.
+            </p>
+          </div>
+        </div>
+        <div class="card__column card__column--photo">
+          <div class="card__photo">
+            <picture>
+              <source
+                srcset="./images/user@1x.webp, ./images/user@2x.webp 2x"
+                type="image/webp"
+              />
+              <img
+                src="./images/user@1x.jpg"
+                srcset="./images/user@2x.jpg 2x"
+                alt="Woman in kitchen looking at recipe on tablet"
+                class="card__image"
+              />
+            </picture>
+            <div class="card__photo-text">
+              It is very important for me to have fresh, tasty products at hand.
+              ”
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
